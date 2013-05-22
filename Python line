@@ -1,0 +1,1 @@
+len(s)-reduce(lambda x ,y : x+y,[len(x) for x in s.split('_')][-3:])-3
